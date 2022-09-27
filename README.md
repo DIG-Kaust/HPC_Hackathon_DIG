@@ -1,49 +1,18 @@
-![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
 
-Reproducible material for **XXX -
-Ravasi M., Author M., Author C.** submitted to XXX.
+## 2022 KAUST-NVIDIA HPC Hackathon
 
+This repository is intended to document the project conducted by the Deep Imaging
+Group (DIG) as part of the 2022 KAUST-NVIDIA HPC Hackathon.
 
-## Project structure
-This repository is organized as follows:
+The general idea of the project is to optimize the primal-dual based segmentation algorithm implemented by
+Matteo Ravasi at https://pyproximal.readthedocs.io/en/latest/api/generated/pyproximal.optimization.segmentation.Segment.html?highlight=segment.
 
-* :open_file_folder: **package**: python library containing routines for ....;
-* :open_file_folder: **data**: folder containing data (or instructions on how to retrieve the data
-* :open_file_folder: **notebooks**: set of jupyter notebooks reproducing the experiments in the paper (see below for more details);
-* :open_file_folder: **scripts**: set of python scripts used to run multiple experiments ...
+Team members :robot:
 
-## Notebooks
-The following notebooks are provided:
+- Daria Sushnikova
+- Nick Luiken
+- Miguel Corrales
+- Fuqiang Cheng
+- Juan Romero
 
-- :orange_book: ``X1.ipynb``: notebook performing ...;
-- :orange_book: ``X2.ipynb``: notebook performing ...
-
-
-## Getting started :space_invader: :robot:
-To ensure reproducibility of the results, we suggest using the `environment.yml` file when creating an environment.
-
-Simply run:
-```
-./install_env.sh
-```
-It will take some time, if at the end you see the word `Done!` on your terminal you are ready to go. After that you can simply install your package:
-```
-pip install .
-```
-or in developer mode:
-```
-pip install -e .
-```
-
-Remember to always activate the environment by typing:
-```
-conda activate my_env
-```
-
-Finally, to run tests simply type:
-```
-pytest
-```
-
-**Disclaimer:** All experiments have been carried on a Intel(R) Xeon(R) CPU @ 2.10GHz equipped with a single NVIDIA GEForce RTX 3090 GPU. Different environment 
-configurations may be required for different combinations of workstation and GPU.
+To ensure reproducibility of the results we suggest the `environment.yml` file when creating the environment.
