@@ -1,4 +1,5 @@
 
+![LOGO](https://github.com/DIG-Kaust/HPC_Hackathon/blob/main/logo.png)  
 ## 2022 KAUST-NVIDIA HPC Hackathon
 
 This repository is intended to document the project conducted by the Deep Imaging
