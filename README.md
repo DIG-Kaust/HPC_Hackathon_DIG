@@ -12,10 +12,8 @@ The main code we would like to optimize levaraging GPU capabilities can be found
 
 Team members :robot:
 
-- Daria Sushnikova
 - Nick Luiken
 - Miguel Corrales
-- Fuqiang Cheng
 - Juan Romero
 
 To ensure reproducibility of the results we suggest the `environment.yml` file when creating the environment.
